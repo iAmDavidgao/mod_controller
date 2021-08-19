@@ -11,7 +11,7 @@ def cmd(cmd):
     os.system(cmd)
 
 gameversions = ['1.12.2','1.14.4'] #you need to change it
-modir = "C:\\users\\david\\downloads\\mc\\.minecraft\\mods" #You need to change it
+modir = "C:\\XXX\\XXX\\XXX\\mc\\.minecraft\\XXX" #You need to change it(it must be double backslash)
 
 os.chdir(modir) #change to the mods dir, you can change it
 

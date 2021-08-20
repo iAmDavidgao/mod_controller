@@ -13,7 +13,7 @@ def cmd(cmd):
 gameversions = ['1.12.2','1.14.4'] #you need to change it
 modir = "C:\\XXX\\XXX\\XXX\\mc\\.minecraft\\XXX" #You need to change it(it must be double backslash)
 
-os.chdir(modir) #change to the mods dir, you can change it
+os.chdir(modir) #change to the mods dir
 
 with open("ver.txt","r") as f:
     data = f.readline()
@@ -38,7 +38,7 @@ for i in gameversions:
 #show the versions
 
 
-#according to the input to activate the mods
+#according to the input from the user to activate the mods
 while True:
     input_ver = input("\033[37m"+"pls enter the available versions that you need>")
     if os.path.exists(input_ver):
